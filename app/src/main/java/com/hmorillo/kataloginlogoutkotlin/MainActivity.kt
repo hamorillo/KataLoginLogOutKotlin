@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loginWith(user: String, password: String) {
-        if(!validateUsername(user)){
+        if (!validateUsername(user)) {
             Toast.makeText(this, "The username can't contain ',' '.' or ';'", Toast.LENGTH_LONG).show()
         }
         logged = user.toLowerCase() == "admin" && password.toLowerCase() == "admin"
@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun validateUsername(user: String): Boolean {
-        return !(user.contains(",")
-                || user.contains(".")
-                || user.contains(";"))
+        return !(user.contains(",") ||
+                user.contains(".") ||
+                user.contains(";"))
     }
 
     private fun logout() {
