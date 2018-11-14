@@ -10,10 +10,10 @@ Kata from: https://github.com/Karumi/KataLogInLogOutKotlin/
 
 ## Movement 1: Writing the app.
 
-- [ ] Build an app with only one screen that allows you to log in if the username and the password are equal to admin.
-- [ ] After the log in, the user should be able to log out if the log out button is pressed and the second when the button was pressed was even.
-- [ ] Add validation for the username field so chars as ,, ., and ; are not allowed. Show a toast explaining the error if the username contain these chars.
-- [ ] The code to log the user in and out has to been executed out of the main thread.
+- [X] Build an app with only one screen that allows you to log in if the username and the password are equal to admin.
+- [X] After the log in, the user should be able to log out if the log out button is pressed and the second when the button was pressed was even.
+- [X] Add validation for the username field so chars as ,, ., and ; are not allowed. Show a toast explaining the error if the username contain these chars.
+- [X] The code to log the user in and out has to been executed out of the main thread.
 
 ## Movement 2: Testing the app using just unit tests.
 
